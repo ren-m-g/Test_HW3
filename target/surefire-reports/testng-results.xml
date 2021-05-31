@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-31T14:05:30 MSK" name="Suite" finished-at="2021-05-31T14:09:03 MSK" duration-ms="212878">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:hw3.RunTestEx1@21b2e768]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-05-31T14:05:30 MSK" name="hw3" finished-at="2021-05-31T14:09:03 MSK" duration-ms="212878">
+      <class name="hw3.RunTestEx1">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:hw3.RunTestEx1@21b2e768]" started-at="2021-05-31T14:05:30 MSK" name="setUpClass" finished-at="2021-05-31T14:05:31 MSK" duration-ms="589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:hw3.RunTestEx1@21b2e768]" started-at="2021-05-31T14:05:31 MSK" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-31T14:05:45 MSK" duration-ms="14287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Assert header sections"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature file for exercise 1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:hw3.RunTestEx1@21b2e768]" started-at="2021-05-31T14:05:45 MSK" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-31T14:05:55 MSK" duration-ms="10161" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Assert images"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature file for exercise 1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:hw3.RunTestEx1@21b2e768]" started-at="2021-05-31T14:05:55 MSK" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-31T14:06:10 MSK" duration-ms="14951" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Assert texts below images"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature file for exercise 1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:hw3.RunTestEx1@21b2e768]" started-at="2021-05-31T14:06:10 MSK" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-31T14:06:23 MSK" duration-ms="12396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Assert main header"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature file for exercise 1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:hw3.RunTestEx1@21b2e768]" started-at="2021-05-31T14:06:23 MSK" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-31T14:06:36 MSK" duration-ms="13702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Assert iframe"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature file for exercise 1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:hw3.RunTestEx1@21b2e768]" started-at="2021-05-31T14:06:36 MSK" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-31T14:06:52 MSK" duration-ms="15771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Assert sub header"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature file for exercise 1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:hw3.RunTestEx1@21b2e768]" started-at="2021-05-31T14:06:52 MSK" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-31T14:07:14 MSK" duration-ms="21946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Assert "JDI GITHUB" block"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature file for exercise 1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:hw3.RunTestEx1@21b2e768]" started-at="2021-05-31T14:07:14 MSK" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-31T14:07:58 MSK" duration-ms="43803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Assert Left Section"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature file for exercise 1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:hw3.RunTestEx1@21b2e768]" started-at="2021-05-31T14:07:58 MSK" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-31T14:08:55 MSK" duration-ms="57025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Assert Footer"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["feature file for exercise 1"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:hw3.RunTestEx1@21b2e768]" started-at="2021-05-31T14:08:55 MSK" name="tearDownClass" finished-at="2021-05-31T14:09:03 MSK" duration-ms="8086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- hw3.RunTestEx1 -->
+    </test> <!-- hw3 -->
+  </suite> <!-- Suite -->
+</testng-results>
