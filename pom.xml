@@ -65,6 +65,12 @@
       <artifactId>slf4j-simple</artifactId>
       <version>1.7.30</version>
     </dependency>
+	
+	  <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.10.0</version>
+       </dependency>
 
   </dependencies>
 
@@ -127,6 +133,12 @@ https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bin
             <suiteXmlFiles>
                 <suiteXmlFile>Stuite.xml</suiteXmlFile>
             </suiteXmlFiles>
+			<systemProperties>
+                <property>
+                    <name>allure.results.directory</name>
+                    <value>./target/allure-results</value>
+                </property>
+            </systemProperties>
         </configuration>
         </plugin>
       </plugins>
