@@ -4,6 +4,7 @@
     <test name="hw3">
         <classes>
             <class name="hw3.AppTest"></class>
+			<class name="hw3.RunTestEx1"></class>
         </classes>
     </test>
 </suite>
