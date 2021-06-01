@@ -69,7 +69,7 @@
 	  <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
-            <version>2.10.0</version>
+            <version>2.13.8</version>
        </dependency>
 
   </dependencies>
@@ -138,7 +138,7 @@ https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bin
                     <name>allure.results.directory</name>
                     <value>./target/allure-results</value>
                 </property>
-            </systemProperties>
+       </systemProperties>
         </configuration>
         </plugin>
       </plugins>

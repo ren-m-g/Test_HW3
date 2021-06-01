@@ -2,7 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
     <test name="hw3">
-        <parameter name="hw3DataPath" value="Data.properties" />
         <classes>
             <class name="hw3.AppTest"></class>
         </classes>
