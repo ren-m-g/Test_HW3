@@ -2,6 +2,8 @@
 Feature: feature file for exercise 1
 
   Background:
+  
+  Scenario:
     Given I open the page
     And I log as "Roman" - "Jdi1234"
     Then Username is "ROMAN IOVLEV"
